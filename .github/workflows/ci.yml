@@ -34,4 +34,4 @@ jobs:
         run: npx next build
         env:
           # Build doesn't need a real key — routes read it at runtime.
-          ANTHROPIC_API_KEY: dummy-for-build
+          ANTHROPIC_API_KEY: "https://api.aitunnel.ru/v1
